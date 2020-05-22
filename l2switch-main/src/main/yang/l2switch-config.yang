@@ -1,0 +1,84 @@
+module l2switch-config {
+
+    yang-version 1;
+    namespace "urn:opendaylight:l2switch:l2switch-config";
+    prefix "l2switch-config";
+
+    description
+        "This module contains the base configuration for main implementation.";
+
+    revision 2014-05-28 {
+        description "Initial module draft.";
+    }
+
+    container l2switch-config {
+        leaf is-learning-only-mode {
+            type boolean;
+            default false;
+        }
+        leaf is-install-dropall-flow {
+            type boolean;
+            default true;
+        }
+        leaf dropall-flow-table-id {
+            type uint8;
+            default 0;
+        }
+        leaf dropall-flow-priority {
+            type uint16;
+            default 0;
+        }
+        leaf dropall-flow-hard-timeout {
+            type uint16;
+            default 0;
+        }
+        leaf dropall-flow-idle-timeout {
+            type uint16;
+            default 0;
+        }
+        leaf reactive-flow-table-id {
+            type uint8;
+            default 0;
+        }
+        leaf reactive-flow-priority {
+            type uint16;
+            default 10;
+        }
+        leaf reactive-flow-hard-timeout {
+            type uint16;
+            default 0;
+        }
+        leaf reactive-flow-idle-timeout {
+            type uint16;
+            default 0;
+        }
+	leaf policy-file {
+	     type string;
+	     default "/users/slab/IoT_Sec_Gateway/policies/cloudlab-NewPolicy20.json";
+	}
+	leaf dataplane-IP {
+	     type string;
+	     default "127.0.0.1";
+	}
+	leaf docker-port {
+	     type string;
+	     default "4243";
+	}
+	leaf ovs-port {
+	     type string;
+	     default "6677";
+	}
+	leaf remote-ovs-port {
+	     type string;
+	     default "6634";
+	}
+	leaf OFversion {
+	     type string;
+	     default "13";
+	}
+	leaf alert-port {
+	     type string;
+	     default "9696";
+	}
+    }
+}

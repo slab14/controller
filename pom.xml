@@ -18,6 +18,8 @@
   <properties>
     <maven.deploy.skip>true</maven.deploy.skip>
     <maven.install.skip>true</maven.install.skip>
+    <maven.compiler.source>1.11</maven.compiler.source>
+    <maven.compiler.target>1.11</maven.compiler.target>
   </properties>
 
   <modules>
@@ -35,6 +37,14 @@
     <!-- Parents -->
     <module>benchmark</module>
     <module>opendaylight/commons/jolokia</module>
+
+    <!-- L2Switch -->
+    <module>packethandler</module>
+    <module>loopremover</module>
+    <module>arphandler</module>
+    <module>addresstracker</module>
+    <module>hosttracker</module>
+    <module>l2switch-main</module>
 
     <!-- Karaf Distribution -->
     <module>karaf</module>

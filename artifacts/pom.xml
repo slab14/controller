@@ -182,6 +182,72 @@
                 <scope>runtime</scope>
             </dependency>
 
+	    <!-- L2Switch -->
+	    <dependency>
+	      <groupId>org.opendaylight.l2switch.arphandler</groupId>
+	      <artifactId>arphandler-config</artifactId>
+	      <version>0.7.5-SNAPSHOT</version>
+	    </dependency>
+	    <dependency>
+	      <groupId>org.opendaylight.l2switch.arphandler</groupId>
+	      <artifactId>arphandler-config</artifactId>
+	      <version>0.7.5-SNAPSHOT</version>	      
+	      <type>xml</type>
+	      <classifier>config</classifier>
+	    </dependency>	    
+	    <dependency>
+	      <groupId>org.opendaylight.l2switch.arphandler</groupId>
+	      <artifactId>arphandler-impl</artifactId>
+	      <version>0.7.5-SNAPSHOT</version>	      	      
+	    </dependency>
+
+	    <dependency>
+	      <groupId>org.opendaylight.l2switch.packethandler</groupId>
+	      <artifactId>packethandler-config</artifactId>
+	      <version>0.7.5-SNAPSHOT</version>	      	      
+	    </dependency>
+	    <dependency>
+	      <groupId>org.opendaylight.l2switch.packethandler</groupId>
+	      <artifactId>packethandler-config</artifactId>
+	      <version>0.7.5-SNAPSHOT</version>	      	      
+	      <type>xml</type>
+	      <classifier>config</classifier>
+	    </dependency>	    
+	    <dependency>
+	      <groupId>org.opendaylight.l2switch.packethandler</groupId>
+	      <artifactId>packethandler-impl</artifactId>
+	      <version>0.7.5-SNAPSHOT</version>	      	      
+	    </dependency>
+	    <dependency>
+	      <groupId>org.opendaylight.l2switch.packethandler</groupId>
+	      <artifactId>packethandler-model</artifactId>
+	      <version>0.7.5-SNAPSHOT</version>	      	      
+	    </dependency>	    
+
+	    <dependency>
+	      <groupId>org.opendaylight.l2switch.loopremover</groupId>
+	      <artifactId>loopremover-config</artifactId>
+	      <version>0.7.5-SNAPSHOT</version>	      	      
+	    </dependency>
+	    <dependency>
+	      <groupId>org.opendaylight.l2switch.loopremover</groupId>
+	      <artifactId>loopremover-config</artifactId>
+	      <version>0.7.5-SNAPSHOT</version>	      	      
+	      <type>xml</type>
+	      <classifier>config</classifier>
+	    </dependency>	    
+	    <dependency>
+	      <groupId>org.opendaylight.l2switch.loopremover</groupId>
+	      <artifactId>loopremover-impl</artifactId>
+	      <version>0.7.5-SNAPSHOT</version>	      	      
+	    </dependency>
+	    <dependency>
+	      <groupId>org.opendaylight.l2switch.loopremover</groupId>
+	      <artifactId>loopremover-model</artifactId>
+	      <version>0.7.5-SNAPSHOT</version>	      	      
+	    </dependency>	    
+	    
+	    
             <!-- MessageBus -->
             <dependency>
                 <groupId>org.opendaylight.controller</groupId>
