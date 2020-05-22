@@ -35,7 +35,9 @@
     <module>opendaylight/blueprint</module>
 
     <!-- Parents -->
-    <module>benchmark</module>
+    <!--
+	<module>benchmark</module>
+    -->
     <module>opendaylight/commons/jolokia</module>
 
     <!-- L2Switch -->
@@ -51,7 +53,9 @@
     <module>features</module>
 
     <!-- documentation -->
-    <module>docs</module>
+    <!--
+	<module>docs</module>
+    -->
   </modules>
 
   <profiles>

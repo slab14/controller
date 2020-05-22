@@ -81,13 +81,15 @@
       <artifactId>openflowplugin-api</artifactId>
       <version>0.10.1</version>
     </dependency>
-    
+
+    <!--
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>23.0</version>
+      <version>23.6.1-jre</version>
     </dependency>
-
+    -->
+    
     <dependency>
       <groupId>org.opendaylight.mdsal.model</groupId>
       <artifactId>ietf-topology</artifactId>
@@ -98,6 +100,12 @@
       <groupId>org.opendaylight.mdsal</groupId>
       <artifactId>mdsal-common-api</artifactId>
       <version>6.0.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.opendaylight.mdsal.model</groupId>
+      <artifactId>ietf-inet-types-2013-07-15</artifactId>
+      <version>1.5.3</version>
     </dependency>    
     
   </dependencies>

@@ -83,8 +83,21 @@
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>23.0</version>
-    </dependency>    
+      <version>23.6.1-jre</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.opendaylight.mdsal.model</groupId>
+      <artifactId>ietf-inet-types-2013-07-15</artifactId>
+      <version>1.5.3</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.opendaylight.mdsal.model</groupId>
+      <artifactId>ietf-yang-types-20130715</artifactId>
+      <version>2013.07.15.13.3</version>
+    </dependency>
+    
   </dependencies>
 
   <build>

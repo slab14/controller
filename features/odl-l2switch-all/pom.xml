@@ -7,8 +7,7 @@
  and is available at http://www.eclipse.org/legal/epl-v10.html
  -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  
+    <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>single-feature-parent</artifactId>
@@ -17,10 +16,10 @@
     </parent>
 
     <groupId>org.opendaylight.l2switch</groupId>
-    <artifactId>odl-l2switch</artifactId>
+    <artifactId>odl-l2switch-all</artifactId>
     <version>0.7.5-SNAPSHOT</version>
     <packaging>feature</packaging>
-    <name>OpenDaylight :: L2Switch :: Switch</name>
+    <name>OpenDaylight :: L2Switch :: All</name>
 
     <dependencies>
         <dependency>
@@ -40,22 +39,10 @@
 	
 	<dependency>
 	  <groupId>org.opendaylight.l2switch</groupId>
-          <artifactId>odl-l2switch-hosttracker</artifactId>
+          <artifactId>odl-l2switch-switch</artifactId>
 	  <version>0.7.5-SNAPSHOT</version>
           <type>xml</type>
           <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.l2switch</groupId>
-            <artifactId>odl-l2switch-arphandler</artifactId>
-	    <version>0.7.5-SNAPSHOT</version>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.l2switch.main</groupId>
-            <artifactId>main-impl</artifactId>
-	    <version>0.7.5-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

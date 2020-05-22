@@ -33,10 +33,12 @@
     <module>features-controller</module>
 
     <!-- Experimental features -->
+    <!--
     <module>features-controller-experimental</module>
     <module>odl-controller-exp-netty-config</module>
     <module>odl-controller-exp-messagebus</module>
-    <module>features-l2switch</module>    
+    <module>features-l2switch</module>
+    -->
 
     <!-- CSIT features -->
     <module>features-controller-testing</module>
@@ -54,12 +56,16 @@
     <module>odl-mdsal-distributed-datastore</module>
     <module>odl-mdsal-model-inventory</module>
     <module>odl-mdsal-remoterpc-connector</module>
-    <module>odl-toaster</module>
-    <module>odl-l2switch-packethandler</module>
+    <!--
+	<module>odl-toaster</module>
+    -->
+    <module>features-l2switch</module>
+    <module>odl-l2switch-all</module>
+    <module>odl-l2switch-switch</module>
+    <module>odl-l2switch-hosttracker</module>
+    <module>odl-l2switch-addresstracker</module>    
     <module>odl-l2switch-loopremover</module>    
     <module>odl-l2switch-arphandler</module>
-    <module>odl-l2switch-addresstracker</module>
-    <module>odl-l2switch-hosttracker</module>
-    <module>odl-l2switch-switch</module>            
+    <module>odl-l2switch-packethandler</module>
   </modules>
 </project>

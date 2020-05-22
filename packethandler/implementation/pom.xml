@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -14,11 +14,6 @@
   <artifactId>packethandler-impl</artifactId>
   <version>0.7.5-SNAPSHOT</version>
   <packaging>bundle</packaging>
-
-  <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-  </properties>
 
   <dependencies>
     <dependency>
@@ -47,6 +42,18 @@
       <groupId>org.opendaylight.openflowplugin.model</groupId>
       <artifactId>model-flow-service</artifactId>
       <version>0.10.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.opendaylight.mdsal.model</groupId>
+      <artifactId>ietf-inet-types-2013-07-15</artifactId>
+      <version>1.5.3</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.opendaylight.mdsal.model</groupId>
+      <artifactId>ietf-yang-types-20130715</artifactId>
+      <version>2013.07.15.13.3</version>
     </dependency>
     
   </dependencies>

@@ -1,17 +1,10 @@
 module ipv6-packet {
-  yang-version 1.1;
+  yang-version 1;
   namespace "urn:opendaylight:packet:ipv6";
   prefix ipv6;
 
-  import ietf-inet-types {
-    prefix inet;
-    revision-date 2013-07-15;
-  }
-
-  import base-packet {
-    prefix bpacket;
-    revision-date 2014-05-28;
-  }
+  import ietf-inet-types { prefix inet; revision-date 2013-07-15; }
+  import base-packet { prefix bpacket; revision-date 2014-05-28; }
 
   import ipv4-packet {
     prefix ipv4;

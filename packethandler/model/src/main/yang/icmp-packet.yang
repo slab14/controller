@@ -1,5 +1,5 @@
 module icmp-packet {
-    yang-version 1.1;
+    yang-version 1;
     namespace "urn:opendaylight:packet:icmp";
     prefix icmp;
 

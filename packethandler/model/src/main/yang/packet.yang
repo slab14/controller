@@ -1,5 +1,5 @@
 module base-packet {
-  yang-version 1.1;
+  yang-version 1;
   namespace "urn:opendaylight:packet:basepacket";
   prefix bpacket;
 
